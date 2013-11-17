@@ -1,0 +1,84 @@
+# Copyright (C) 2013 Sami Keijonen
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cold Winter Dreams 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/cold-winter-dreams\n"
+"POT-Creation-Date: 2013-11-17 08:28:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Translators: Header image description.
+
+#: functions.php:52
+msgid "Cold Winter Dream 1"
+msgstr ""
+
+#. Translators: Header image description.
+
+#: functions.php:58
+msgid "Cold Winter Dream 2"
+msgstr ""
+
+#. Translators: Header image description.
+
+#: functions.php:64
+msgid "Cold Winter Dream 3"
+msgstr ""
+
+#. Translators: Header image description.
+
+#: functions.php:70
+msgid "Cold Winter Dream 4"
+msgstr ""
+
+#: functions.php:112
+msgctxt "sidebar"
+msgid "Cold Front page"
+msgstr ""
+
+#: functions.php:113
+msgid "The Cold Front Page sidebar. It is displayed on the page template called Cold Front Page."
+msgstr ""
+
+#: sidebar-cold-front-page.php:12
+msgid "Example Widget 1"
+msgstr ""
+
+#. Translators: The %s are placeholders for HTML, so the order can't be
+#. changed.
+
+#: sidebar-cold-front-page.php:14 sidebar-cold-front-page.php:30
+msgid "This is an example widget to show how the Cold Front Page sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin."
+msgstr ""
+
+#: sidebar-cold-front-page.php:28
+msgid "Example Widget 2"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Cold Winter Dreams"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/cold-winter-dreams"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A child theme of stargazer parent theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet-themes.fi"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Cold Front Page"
+msgstr ""
