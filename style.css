@@ -23,32 +23,13 @@
 .custom-background #container > .wrap {
 	margin-top: 0;
 }
-#menu-primary ul,
-#menu-secondary ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	display: block;
-	list-style: none;
-}
-#menu-primary li,
-#menu-secondary li {
-	width: 100%;
-	display: block;
-}
 #menu-primary li a,
 #menu-secondary li a  {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	color: #fff;
 	color: rgba( 255, 255, 255, 0.75 );
 	text-decoration: none;
-	width: 100%;
 	background: #163e6f;
-	border-bottom: 1px solid #1f5393;
-	padding: 0.7em 1em;
-	float: left;
+	border-color: #1f5393;
 }
 #menu-primary li a:hover,
 #menu-primary li a:active,
@@ -68,33 +49,6 @@
 	background: #163e6f;
 	color: #fff;
 }
-#menu-primary ul li a,
-#menu-secondary ul li a {
-	padding-left: 25px;
-}
-#menu-primary ul ul li a,
-#menu-secondary ul li a {
-	padding-left: 30px;
-}
-#menu-primary ul ul li a,
-#menu-secondary ul ul li a {
-	padding-left: 35px;
-}
-#menu-primary ul ul ul li a,
-#menu-secondary ul ul ul li a {
-	padding-left: 40px;
-}
-#menu-primary ul ul ul ul li a,
-#menu-secondary ul ul ul ul li a {
-	padding-left: 45px;
-}
-#menu-primary > .wrap {
-	padding-left: 0;
-	padding-right: 0;
-}
-#menu-secondary .wrap {
-	padding: 0;
-}
 
 }
 
@@ -104,14 +58,14 @@
 #menu-primary li li a,
 #menu-secondary li li a,
 #menu-secondary li li a:hover,
-#menu-primary ul ul > li:nth-child( odd ) a,
 #menu-primary ul ul li a:hover,
 #menu-secondary ul ul li a:hover,
 #menu-primary .search-form > div {
 	background: #163e6f;
+	color: #fff;
+	color: rgba( 255, 255, 255, 0.75 );
 }
 #menu-primary li li a,
-#menu-primary ul ul > li:nth-child( odd ) a,
 #menu-secondary li li a {
 	border-top: 1px solid #1f5393;
 }
@@ -119,6 +73,11 @@
 #menu-secondary li li a:hover,
 #menu-secondary ul ul li a:hover {
 	background: #1f5393;
+	color: #fff;
+}
+#menu-primary li li.current-menu-item > a,
+#menu-secondary ul li.current-menu-item a {
+	color: #fff;
 }
 #menu-primary ul ul {
 	top: 45px;
